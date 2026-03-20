@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    tools:context=".MainActivity_Demo09">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:background="#ff0000"
+        android:text="Aplicación para Manejo de Archivos de Texto"
+        />
+
+    <Button
+        android:onClick="UsuarioSeleccionaArchivoLectura"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Leer Archivo"
+        />
+
+    <Button
+        android:onClick="UsuarioSeleccionaArchivoEscritura"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Escribir Archivo"
+        />
+
+
+    <Button
+        android:onClick="SeleccionarFolder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Folder"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_ultimo_archivo_abierto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:background="#ffff00"
+        android:text=""
+        />
+
+    <EditText
+        android:gravity="top"
+        android:textColor="#000000"
+        android:scrollbars="vertical"
+        android:id="@+id/tv_contenido_archivo"
+        android:background="#00ffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:hint="Escribe el contenido del texto que será guardado en el archivo"
+        android:text=""
+        />
+
+
+
+</LinearLayout>

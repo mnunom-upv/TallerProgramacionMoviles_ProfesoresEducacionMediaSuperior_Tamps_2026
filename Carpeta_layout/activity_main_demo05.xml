@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Demo05">
+
+
+
+    <TextView android:text="hello_world"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/textView1" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:id="@+id/radio"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|center|center_horizontal">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                android:checked="true"
+                android:text="Opcion 1"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp" />
+
+
+            <RadioButton
+                android:id="@+id/rb2"
+                android:text="Opcion 2"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp" />
+
+            <RadioButton
+                android:id="@+id/rb3"
+                android:text="Opcion 3"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"  />
+        </RadioGroup>
+
+
+    <Button android:text="Checar seleccion del usuario"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/button1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/upv"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

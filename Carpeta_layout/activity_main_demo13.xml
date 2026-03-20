@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context=".MainActivity_Demo13">
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="QR Scanner App"
+        />
+
+
+
+    <Button
+        android:onClick="Click_on_QR_Scan"
+        android:id="@+id/Bt1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="QR Scan"
+        />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="Resultado del Escaneo:"
+        />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="---"
+        android:id="@+id/TV1"
+        />
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Demo03">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Primera Aplicación en Android!"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#ff0000"
+         />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Ingrese un nombre"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Procesa dato"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"  android:layout_height="0dp"
+        android:layout_weight="2"  android:columnCount="3"
+        android:rowCount="3" android:layout_columnWeight="1">
+
+        <!-- Fila 1 -->
+        <Button
+            android:id="@+id/B11"
+            android:layout_width="0dp"  android:layout_columnWeight="1"
+            android:layout_rowWeight="1"  android:layout_gravity="fill_horizontal"
+            android:text="1"  android:layout_row="0"  android:layout_column="0" />
+        <Button
+            android:id="@+id/B12"
+            android:layout_width="0dp"  android:layout_columnWeight="1"
+            android:layout_rowWeight="1"  android:layout_gravity="fill_horizontal"
+            android:text="2"  android:layout_row="0" android:layout_column="1" />
+        <Button
+            android:id="@+id/B13"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="3"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <!-- Fila 2 -->
+        <Button
+            android:id="@+id/B21"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="4"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/B22"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="5"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/B23"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="6"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <!-- Fila 3 -->
+        <Button
+            android:id="@+id/B31"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="7"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/B32"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="8"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/B33"
+            android:layout_width="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="9"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+    </GridLayout>
+
+</LinearLayout>

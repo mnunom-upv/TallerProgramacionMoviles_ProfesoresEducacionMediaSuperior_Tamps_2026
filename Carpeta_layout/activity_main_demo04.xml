@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_Demo04">
+
+
+
+    <TextView android:text="hello_world"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/textView1" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/upv"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Pizza con Extra QUESO"
+            android:id="@+id/checkBox"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical|center|center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+
+            <Button
+                android:layout_height="0dp"
+                android:layout_width="fill_parent"
+                android:text="B1"
+                android:layout_weight="5"
+                android:id="@+id/button1" />
+
+            <Button
+                android:layout_height="0dp"
+                android:layout_width="fill_parent"
+                android:text="B2"
+                android:layout_weight="5"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_height="0dp"
+                android:layout_width="fill_parent"
+                android:text="B3"
+                android:layout_weight="5"
+                android:id="@+id/button3" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        >
+
+        <!-- En la siguiente linea sustituir con su package  => <package>.CanvasView -->
+        <com.example.a2026_01_holamundoandroid.PongSurfaceView
+            android:id="@+id/PongView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Esta propiedad:
+    android:onClick="clearCanvas"
+    Le asigna directo al botón una función que es ejecutada en el momento que el usuario interactura con la vista
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center"
+            android:text="Reset Game" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

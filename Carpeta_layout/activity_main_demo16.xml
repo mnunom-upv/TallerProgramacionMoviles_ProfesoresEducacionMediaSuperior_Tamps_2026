@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="horizontal"
+        >
+
+        <!-- En la siguiente linea sustituir con su package  => <package>.CanvasView -->
+        <com.example.a2026_01_holamundoandroid.CanvasView
+            android:id="@+id/signature_canvas"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <!-- Esta propiedad:
+    android:onClick="clearCanvas"
+    Le asigna directo al botón una función que es ejecutada en el momento que el usuario interactura con la vista
+    La función debe existir o de lo contrario la App va a "tronar"
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center"
+            android:onClick="clearCanvas"
+            android:text="Chequear" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center"
+            android:onClick="clearCanvas"
+            android:text="Limpiar Canvas" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
