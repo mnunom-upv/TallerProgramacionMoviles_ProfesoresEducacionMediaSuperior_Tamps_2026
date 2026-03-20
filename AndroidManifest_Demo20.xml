@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme._2026_01_HolaMundoAndroid">
+
+        <!-- Conforme se vayana realizando los laboratorios, cambiar la propiead android:name por el correspondiente .<NombreArchivoJAVA-sinEXTENSION> -->
+        <activity
+            android:name=".MainActivity_Demo20"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Solo para el DEMO 20 agregar estas lineas -->
+        <activity android:name=".MainActivity_Demo01" ></activity>
+        <activity android:name=".MainActivity_Demo02" ></activity>
+        <activity android:name=".MainActivity_Demo03" ></activity>
+        <activity android:name=".MainActivity_Demo04" ></activity>
+        <activity android:name=".MainActivity_Demo05" ></activity>
+        <activity android:name=".MainActivity_Demo06" ></activity>
+        <activity android:name=".MainActivity_Demo07" ></activity>
+        <activity android:name=".MainActivity_Demo08" ></activity>
+        <activity android:name=".MainActivity_Demo09" ></activity>
+        <activity android:name=".MainActivity_Demo10" ></activity>
+        <activity android:name=".MainActivity_Demo11" ></activity>
+        <activity android:name=".MainActivity_Demo12" ></activity>
+        <activity android:name=".MainActivity_Demo13" ></activity>
+        <activity android:name=".MainActivity_Demo14" ></activity>
+        <activity android:name=".MainActivity_Demo15" ></activity>
+        <activity android:name=".MainActivity_Demo16" ></activity>
+        <activity android:name=".MainActivity_Demo17" ></activity>
+        <activity android:name=".MainActivity_Demo18" ></activity>
+        <activity android:name=".MainActivity_Demo19" ></activity>
+
+
+    </application>
+
+</manifest>
