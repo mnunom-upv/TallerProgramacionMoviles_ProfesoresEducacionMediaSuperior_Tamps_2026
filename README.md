@@ -18,7 +18,7 @@ Cable USB de Datos compatible con el dispositivo a utilizar.
 
 Descargar e instalar la última versión de [Android Studio](https://developer.android.com/studio?hl=es-419)
 
-
+Conocimiento y experiencia con algún lenguaje de programación es deseable aunque no indispensable. El lenguaje que se utilizará en este Taller es JAVA. 
 
 Ejecutar la app por primera vez antes del curso y crear un proyecto vacio (Tipo de proyecto: Empty Views Activity). En la siguiente ventana seleccionar como lenguaje JAVA y concluir el proceso. Lo anterior requerirá conexión a internet para actualizaciones.  
 
