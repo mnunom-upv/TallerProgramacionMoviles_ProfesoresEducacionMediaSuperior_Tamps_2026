@@ -12,6 +12,8 @@ Conexión a Internet.
 
 Dispositivo (Tableta, Smartphone) con Sistema Operativo Android. 
 
+Cable USB de Datos compatible con el dispositivo a utilizar. 
+
 ## Software Requerido
 
 Descargar e instalar la última versión de [Android Studio](https://developer.android.com/studio?hl=es-419)
